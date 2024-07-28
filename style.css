@@ -1,0 +1,39 @@
+
+.keep-centre{
+    padding: 1px;
+    text-align: center;
+}
+.keep-left{
+    margin: 5px 20px;
+}
+
+.keep-right{
+    
+    text-align: right;
+    margin: 5px 20px;
+}
+
+a{
+    color: blue;
+}
+.horizontal-line{
+    border: 0;
+    height: 1px;
+    background: darkblue ;
+    margin: 5px 20px;
+    
+    height: 3px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.item2{
+    flex-grow:1
+}
+.indentfont{
+    font-size: smaller;
+    
+}
