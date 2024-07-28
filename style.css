@@ -1,4 +1,6 @@
-
+body{
+    margin-bottom: 200px;
+}
 .keep-centre{
     padding: 1px;
     text-align: center;
@@ -25,8 +27,11 @@ a{
     height: 3px;
 
 }
-
+ol{
+    margin:0px;
+}
 .container{
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -38,3 +43,4 @@ a{
     font-size: smaller;
     
 }
+
